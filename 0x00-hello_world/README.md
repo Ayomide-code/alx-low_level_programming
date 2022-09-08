@@ -1,1 +1,1 @@
-script that runs a C file through the preprocessor
+script to write a C
