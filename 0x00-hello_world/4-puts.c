@@ -6,9 +6,9 @@
  *
  *   *
  *
- * Return::By default returns zero if no erros otherwise returns non-zero value.
+ * Return:By default returns zero if no erros else returns non-zero value.
  *
- *     */
+ */
 
 int main(void)
 
