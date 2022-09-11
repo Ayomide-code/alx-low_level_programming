@@ -2,10 +2,10 @@
 /**
 *main - Prints the numbers since 0 to 9
 *Return: Always (Success)
-**/
+*/
 int main(void)
 {
-	char n;
+	int n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
@@ -14,3 +14,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
