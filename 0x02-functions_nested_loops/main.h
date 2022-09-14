@@ -1,6 +1,10 @@
-int _putchar(char);
+#ifndef MAIN_H
+#define MAIN_H
+#include<stdio.h>
+
+int _putchar(char c);
 void print_alphabeth(void);
-voidi print_alphabeth_x10(void);
+void print_alphabeth_x10(void);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
