@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * int _abs - program to compute absolute value of integer
+ * _abs - function that compute absolute value of integer
  * @c: is the int used for the argument
- * Return : 0
+ * Return: 0
  */
 int _abs(int c)
 {
@@ -12,6 +12,6 @@ int _abs(int c)
 		return (c);
 	}
 	else
-		return (c * - 1);
+		return (c * -1);
 }
 
