@@ -1,7 +1,8 @@
 #include "main.h"
 #include <string.h>
+
 /**
-* _strcat - concatenate two strings but adds number of bytes
+* _strncat - concatenate two strings but adds number of bytes
 *@dest: string to append
 *@src: string to be completed
 *@n: integer to compare
