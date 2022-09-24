@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * leet - a function that encodes a string into 1337
+ * cap_string - a function that capitalizes all words of a string
  * @s: string input
  * Return: @s
  */
@@ -18,16 +18,17 @@ char *cap_string(char *s)
 		if (s[i] >= 97 && s[i] <= 122)
 		{
 /**
- * if we have a null character
- * change its value to capital
+ * if - condition we have a null character change its value to capital
+ * @0: null character
  */
 			if (i == 0)
 			{
 				s[i] -= 32;
 			}
 /**
- * if we find any character matching the below before any small
+ * if - condition we find any character matching the below before any small
  * letter we change that value to a capital letter.
+ * @s: param
  */
 			if (s[i - 1] == 32 || s[i - 1] == 9 || s[i - 1] == 10 ||
 s[i - 1] == 44 || s[i - 1] == 59 || s[i - 1] == 46 ||
